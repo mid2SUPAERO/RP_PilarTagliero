@@ -50,12 +50,12 @@ for th5_i in th5:
     
     Je.append(Je_i)
     
-Jrect = 0.263*cs*h**3 + 1/3*cf*th[0]**3
+Jrect = 0.263*cs*h**3 
     
 plt.figure(1)
 plt.plot(th5, Jtw, linestyle='-', color='#929591', linewidth=2, label='$J = J_{tw2} + J_{f}$')
 plt.plot(th5, Je, linestyle='-',  color='#000000', linewidth=2, label='$J = J_{tw1} +  J_{5}$')
-plt.plot(th5[-1], Jrect, linestyle='', color='#000000',  marker='*', label='$J = J_{solid} + J_{f}$')
+plt.plot(th5[-1], Jrect, linestyle='', color='#000000',  marker='*', label='$J = J_{solid}$')
 plt.xlabel('$t_5$', fontsize=16)
 plt.title('$J$', fontsize=16)
 plt.legend(loc='best', fontsize=16)
