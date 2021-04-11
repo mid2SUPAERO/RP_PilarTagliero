@@ -1,0 +1,5 @@
+[20] https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
+
+[23] https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html#scipy.optimize.minimize
+
+[24] https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html
